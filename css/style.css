@@ -124,3 +124,31 @@ a {
 }
 /* /section2 */
 /* section3 */
+#bg_main {
+  height: 500px;
+}
+#bg_main .long_card {
+  background-image: url("../img/scooter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+#bg_main .small_card_left {
+  background-color: #212529;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+#bg_main .small_card_left {
+  position: relative;
+  background-color: #212529;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+#bg_main .small_card_right {
+  background-image: url("../img/city.7c8c928.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
