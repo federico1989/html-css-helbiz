@@ -84,6 +84,7 @@ a {
 }
 /* /header */
 /* main*/
+/* section1 */
 #models {
   height: 800px;
   /* background-color: red; */
@@ -105,3 +106,21 @@ a {
   font-size: 1.5em;
   padding: 20px;
 }
+/* /section1 */
+/* section2 */
+#helbiz_work {
+  height: 800px;
+}
+#helbiz_work .container_fluid {
+  background-image: url("../img/download.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  color: black;
+}
+#helbiz_work img {
+  width: 100%;
+  padding: 0 30px;
+}
+/* /section2 */
+/* section3 */
