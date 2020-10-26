@@ -5,6 +5,12 @@ body {
 .mr_20 {
   margin-right: 20px;
 }
+.pr_1 {
+  padding-right: 1rem;
+}
+.pl_1 {
+  padding-left: 1rem;
+}
 /* /utility */
  /* header */
 header {
@@ -75,4 +81,27 @@ a {
 }
 .hero_text img {
   width: 150px;
+}
+/* /header */
+/* main*/
+#models {
+  height: 800px;
+  /* background-color: red; */
+}
+#models .row {
+  padding-top: 150px;
+}
+#models .card {
+  text-align: center;
+  background-color: #fafafa;
+}
+#models .card h2{
+  padding: 20px;
+}
+#models .card .vehicle {
+  width: 450px;
+}
+.card p, .card a{
+  font-size: 1.5em;
+  padding: 20px;
 }
