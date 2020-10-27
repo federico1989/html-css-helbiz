@@ -11,6 +11,10 @@ body {
 .pl_1 {
   padding-left: 1rem;
 }
+
+.text_center {
+  text-align: center;
+}
 /* /utility */
  /* header */
 header {
@@ -108,45 +112,59 @@ a {
 }
 /* /section1 */
 /* section2 */
-#helbiz_work {
+#slider {
   height: 800px;
 }
-#helbiz_work .container_fluid {
+#slider {
   background-image: url("../img/download.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
-  color: black;
+  height: 450px;
 }
-#helbiz_work img {
-  width: 100%;
-  padding: 0 30px;
+#slider img {
+  margin-top: 150px;
+  width: 250px;
+}
+
+#slider h2 {
+  text-align: right;
+}
+
+#slider .row > div:first-child, #slider .row > div:last-child {
+  margin-top: 500px;
+}
+
+@media screen and (max-width:768px) {
+  #slider .row > div:first-child, #slider .row > div:last-child {
+    display: none;
+  }
+
 }
 /* /section2 */
 /* section3 */
-#bg_main {
+#promo {
   height: 500px;
 }
-#bg_main .long_card {
+#promo .long_card {
   background-image: url("../img/scooter.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
 }
-#bg_main .small_card_left {
+#promo .small_card_left {
   background-color: #212529;
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
 }
-#bg_main .small_card_left {
+#promo .small_card_left {
   position: relative;
   background-color: #212529;
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
 }
-#bg_main .small_card_right {
+#promo .small_card_right {
   background-image: url("../img/city.7c8c928.jpg");
   background-repeat: no-repeat;
   background-size: cover;
